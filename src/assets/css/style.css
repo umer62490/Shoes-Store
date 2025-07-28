@@ -1,0 +1,26 @@
+.font-custom {
+  font-family: ui-sans-serif, system-ui, sans-serif, 
+               "Apple Color Emoji", "Segoe UI Emoji", 
+               "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+.box-top-shadow {
+    position: relative;
+   
+    box-shadow: 0 -20px 60px -10px #FE5047;
+  }
+
+  /* Circular infinite marquee effect */
+@keyframes infiniteScroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.slider-track {
+  animation: infiniteScroll 15s linear infinite;
+}
